@@ -1,0 +1,235 @@
+<html>
+   <head>
+      <title>Cricket Player Cards</title>
+   <style>
+body{
+    font-family: Arial, sans-serif;
+    background:rgb(24, 24, 67);
+    padding:10px;
+    /* size: fit; */
+}
+
+h1{
+    text-align:center;
+    margin-bottom:20px;
+    color:white;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    gap:10px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    flex-wrap:wrap; /* */
+}
+
+.card{
+    background-color:navy;
+    border-radius:10px;
+    padding:15px;
+    box-shadow:0 6px 15px white;
+    transition:0.3s;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* height: 330px; */
+    height:auto;
+    width:250px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.card img{
+    width:120px;
+    border-radius:50%;
+    height:120px;
+    object-fit:cover;
+    display: block;
+    margin:0 auto;
+}
+
+.name{
+    font-size:20px;
+    font-weight:bold;
+    margin-top:10px;
+    text-align: center;
+    color:white;
+}
+
+.role{
+    color:white;
+    margin-bottom:10px;
+    text-align: center;
+}
+
+.runs{
+    margin:8px 0;
+    font-size: 14px;
+    /* color:white; */
+}
+.strike-rate{
+    margin:8px 0;
+    font-size: 14px;
+    /* color:white; */
+}
+.wickets{
+    margin:8px 0;
+    font-size: 14px;
+    /* color:white; */
+}
+
+.bar{
+    height:8px;
+    background:white;
+    border-radius:5px;
+    /* overflow:hidden; */
+}
+
+.fill{
+    height:100%;
+    background:rgb(74, 140, 181);
+}
+
+header{
+    background-color: rgb(30, 127, 156);
+    height:50px;
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+
+footer{
+    background-color: rgb(30, 127, 156);
+    margin-top: -3px;
+}
+
+table{
+    width:100%; /* */
+    color: white;
+    background-color:rgb(30, 127, 156);
+}
+</style>
+
+</head>
+<body>
+     <header>
+<table border="1" width="100%">
+    <tr>
+        <td>
+<center><h1><tt>&#127951 Team India -  Player Stats Dashboard</tt></h1></center>
+
+</td>
+</tr>
+</table>
+</header>
+
+
+<table border="1" width="100%">
+    <tr>
+        <td>
+            
+<div class="container">
+
+    <!-- Rohit Sharma -->
+    <div class="card">
+        <img src="https://pbs.twimg.com/media/GRf52_kaYAAmZSS.jpg" alt="">
+        <div class="name">Rohit Sharma</div>
+        <div class="role">Role: &#127951; Batsman</div>
+
+        <div class="runs">
+            <label>Runs: 9200</label>
+            <div class="bar"><div class="fill" style="width:85%"></div></div>
+        </div>
+
+        <div class="strike-rate">
+            <label>Strike Rate: 140</label>
+            <div class="bar"><div class="fill" style="width:70%"></div></div>
+        </div>
+        <div class="wickets">
+            <label>Wickets: 10</label>
+            <div class="bar"><div class="fill" style="width:10%"></div></div>
+        </div>
+    </div>
+
+    <!-- Umran Malik -->
+    <div class="card">
+        <img src="C:\Users\vyshn\Downloads\Umran_Malik.avif" alt="">
+        <div class="name">Umran Malik</div>
+        <div class="role"> Role: &#127919; Bowler</div>
+
+        <div class="runs">
+            <label>Runs: 200</label>
+            <div class="bar"><div class="fill" style="width:10%"></div></div>
+        </div>
+
+        <div class="strike-rate">
+            <label>Strike Rate: 90</label>
+            <div class="bar"><div class="fill" style="width:30%"></div></div>
+        </div>
+        <div class="wickets">
+            <label>Wickets: 45</label>
+            <div class="bar"><div class="fill" style="width:50%"></div></div>
+        </div>
+    </div>
+
+    <!-- Hardik Pandya -->
+    <div class="card">
+        <img src="C:\Users\vyshn\Downloads\Hardik_Pandya.jpg" alt="">
+        <div class="name">Hardik Pandya</div>
+        <div class="role">Role: &#9889; All-Rounder</div>
+
+        <div class="runs">
+            <label>Runs: 2000</label>
+            <div class="bar"><div class="fill" style="width:55%"></div></div>
+        </div>
+
+        <div class="strike-rate">
+            <label>Strike Rate: 135</label>
+            <div class="bar"><div class="fill" style="width:65%"></div></div>
+        </div>
+        <div class="wickets">
+            <label>Wickets: 70</label>
+            <div class="bar"><div class="fill" style="width:45%"></div></div>
+        </div>
+    </div>
+
+    <!-- Rishabh Pant -->
+    <!-- <div class="card">
+        <img src="https://images.mykhel.com/img/2021/03/rishabhpant1-1617116723.jpg" alt="">
+        <div class="name">Rishabh Pant</div>
+        <div class="role">Role: &#129508; Wicket Keeper</div>
+
+        <div class="runs">
+            <label>Runs: 3500</label>
+            <div class="bar"><div class="fill" style="width:60%"></div></div>
+        </div>
+
+        <div class="strike-rate">
+            <label>Strike Rate: 145</label>
+            <div class="bar"><div class="fill" style="width:75%"></div></div>
+        </div>
+        <div class="wickets">
+            <label>Wickets: 5</label>
+            <div class="bar"><div class="fill" style="width:5%"></div></div>
+        </div> -->
+    </div>
+
+</div>
+        </td>
+    </tr>
+</table>
+
+<footer>
+<table border="1" width="100%" align="center">
+    <tr>
+        <td>
+             <center> <h1><tt>@ 2025 cricket stats UI</tt></h1></center>
+        </td>
+    </tr>
+</table>
+</footer>
+
+</body>
+</html>
